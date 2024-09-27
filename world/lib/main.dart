@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Your BMI",style: TextStyle(color: Colors.white,fontSize: 30), ),
+          title: Text("Your BMI",style: TextStyle(color: Colors.white,fontSize: 30,fontWeight: FontWeight.bold), ),
           backgroundColor: Colors.indigo.shade300,
         ),
         body: Container(
